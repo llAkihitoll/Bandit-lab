@@ -1,15 +1,36 @@
-### Bandit Level 0
+## Bandit Level 0
 
 Contraseña:  ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-## --- Comandos utilizados ---
+### --- Comandos utilizados ---
 
-cat
+ls, cat
 
-### Bandit level 1
+### Explicacion:
+
+Leer el readme que habia al ingresar
+
+## Bandit level 1
 
 Contraseña: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
-## --- Comandos utilizados ---
+### --- Comandos utilizados ---
 
-ls, cd, cat
+ls, cd, cd .., cat
+
+###Explicacion:
+
+leer un archivo con nombre "-" usando cat ./
+
+## Bandit level 2
+
+Contraseña: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+### --- Comandos utilizados ---
+
+ls, ls -alh, cat, du, cd, file, find
+
+###Explicacion:
+
+Leer un archivo que en el nombre incluia "--(nombre del archivo)--" 
+en el cual utilice cat -- "--(nombre del archivo)--"
