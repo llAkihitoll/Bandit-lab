@@ -18,7 +18,7 @@ Contraseña: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 ls, cd, cd .., cat
 
-###Explicacion:
+### Explicacion:
 
 leer un archivo con nombre "-" usando cat ./
 
@@ -30,7 +30,7 @@ Contraseña: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ls, ls -alh, cat, du, cd, file, find
 
-###Explicacion:
+### Explicacion:
 
 Leer un archivo que en el nombre incluia "--(nombre del archivo)--" 
 en el cual utilice cat -- "--(nombre del archivo)--"
@@ -46,4 +46,18 @@ cd, ls, ls -alh, cat
 ### Explicacion:
 
 Entrar a una carpeta que contenia el archivo el cual contenia la contraseña
+
+## Bandit level 4
+
+Contraseña: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+### --- Comandos Utilizados ---
+
+find, ls, ls -alh, cat, cd, cd ..
+
+### Explicacion:
+
+Entrar a la carpeta que contenia varios archivos y encontrar el archivo con el que tenia la 
+contraseña legible
+
 
