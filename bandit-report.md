@@ -34,3 +34,16 @@ ls, ls -alh, cat, du, cd, file, find
 
 Leer un archivo que en el nombre incluia "--(nombre del archivo)--" 
 en el cual utilice cat -- "--(nombre del archivo)--"
+
+## Bandit level 3
+
+Contraseña: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+### --- Comandos utilizados ---
+
+cd, ls, ls -alh, cat
+
+### Explicacion:
+
+Entrar a una carpeta que contenia el archivo el cual contenia la contraseña
+
