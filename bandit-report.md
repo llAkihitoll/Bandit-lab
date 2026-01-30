@@ -127,3 +127,17 @@ ls, ls -alh, cat, strings, grep
 Al leer el archivo de data.txt sale informacion que no se puede leer, por lo tanto se usa el comando
 de strings junto con grep para encontrar el string con el que tiene al inicio varios de "=" que
 indica la contraseña del siguiente nivel
+
+## Bandit level 10
+
+Contraseña: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+### --- Comandos utilizados ---
+
+ls, cat, base64
+
+### Explicacion:
+
+Al abrir el archivo de data.txt sale un codigo en base64 el cual se decodifica usando el comando
+base64 para obtener la contraseña
+
