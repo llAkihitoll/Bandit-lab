@@ -85,3 +85,16 @@ ls, la -alh, find, cat
 
 Utilizar el comando de find para encontrar la direccion del archivo que contiene la contraseña
 
+## Bandit level 7
+
+Contraseña: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+### --- Comandos utilizados ---
+
+ls, ls -alh, cat, strings, grep
+
+### Explicacion:
+
+Al tratar de leer el archivo de data.txt, este muestra demasiados strings con diferentes
+"contraseñas", y usamos el comando de strings y grep para encontrar el string que contiene
+la contraseña correcta 
