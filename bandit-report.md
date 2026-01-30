@@ -68,8 +68,20 @@ Contraseña: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 ls, ls -alh, find, cd, cat
 
-## Explicacion:
+### Explicacion:
 
 Buscar usando el comando de find el archivo que sea de 1033 bytes, que no sea ejecutable y que sea 
 legible 
+
+## Bandit level 6
+
+Contraseña: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+### --- Comandos utilizados ---
+
+ls, la -alh, find, cat
+
+### Explicacion:
+
+Utilizar el comando de find para encontrar la direccion del archivo que contiene la contraseña
 
