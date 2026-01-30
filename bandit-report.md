@@ -60,4 +60,16 @@ find, ls, ls -alh, cat, cd, cd ..
 Entrar a la carpeta que contenia varios archivos y encontrar el archivo con el que tenia la 
 contraseña legible
 
+## Bandit level 5
+
+Contraseña: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+### --- Comandos utilizados ---
+
+ls, ls -alh, find, cd, cat
+
+## Explicacion:
+
+Buscar usando el comando de find el archivo que sea de 1033 bytes, que no sea ejecutable y que sea 
+legible 
 
