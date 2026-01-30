@@ -114,3 +114,16 @@ comando de sort se agrupan para luego utilizar el comando de uniq para encontrar
 para el siguiente nivel
 
 
+## Bandit level 9
+
+Contraseña: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+### --- Comandos utilizados ---
+
+ls, ls -alh, cat, strings, grep
+
+### Explicacion:
+
+Al leer el archivo de data.txt sale informacion que no se puede leer, por lo tanto se usa el comando
+de strings junto con grep para encontrar el string con el que tiene al inicio varios de "=" que
+indica la contraseña del siguiente nivel
