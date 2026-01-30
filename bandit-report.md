@@ -98,3 +98,19 @@ ls, ls -alh, cat, strings, grep
 Al tratar de leer el archivo de data.txt, este muestra demasiados strings con diferentes
 "contraseñas", y usamos el comando de strings y grep para encontrar el string que contiene
 la contraseña correcta 
+
+## Bandit level 8
+
+Contraseña: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+### --- Comandos utilizados ---
+
+ls, ls -alh, cat, sort, uniq, 
+
+### Explicacion:
+
+Al abrir el archivo de data.txt aparecen muchas "contraseñas" repetidas, luego al utilizar el
+comando de sort se agrupan para luego utilizar el comando de uniq para encontrar la contraseña 
+para el siguiente nivel
+
+
